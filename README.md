@@ -130,7 +130,7 @@ filtered_data = list(filter(lambda y: f(y), data))
 
 # Warning
 
-You should not use Walros operator in a with statement.
+You should not use Walrus operator in a with statement.
 
 ```python
 # INVALID, SHOULD BE AVOIDED
