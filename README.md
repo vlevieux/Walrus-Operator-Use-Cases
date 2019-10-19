@@ -51,7 +51,7 @@ foo = [f(x), f(x)**2, f(x)**3]
 ```python
 result = []
 for x in data:
-    result =f(x)
+    result = f(x)
     if result:
         results.append(result)
 ```
@@ -70,7 +70,7 @@ y = re.match("str1", x)
 if y:
     print(f"Match the 1st string: {y.match(0)}")
 else:
-    y:= re.match("str2", x)
+    y = re.match("str2", x)
     if y:
         print(f"Match the 2nd string: {y.match(0)}")
 ```
@@ -113,7 +113,7 @@ total = 0
 ## Use it as a key & as a value in dict declaration
 
 ```python
-names="str1 str2", "str3 str4"
+names = "str1 str2", "str3 str4"
 { (n := name.lower()): n.split() for name in names}
 # {'str1 str2': ['str1', 'str2'], 'str3 str4': ['str3', 'str4']}
 ```
@@ -130,7 +130,7 @@ filtered_data = list(filter(lambda y: f(y), data))
 
 # Warning
 
-You should/can not use Walros operator in a with statement.
+You should not use Walros operator in a with statement.
 
 ```python
 # INVALID, SHOULD BE AVOIDED
