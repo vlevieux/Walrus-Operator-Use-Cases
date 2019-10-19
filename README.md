@@ -155,6 +155,9 @@ with open('file.txt') as f:
 
 Please read the [PEP 572](https://www.python.org/dev/peps/pep-0572/) for more information about what is valid/invalid.
 
+# How to contribute
+
+To add a use case, please create an issue with the *Propose a Use Case* template. It would be discussed and added.
 
 ## Sources:
 * [Dustin Ingram - PEP 572: The Walrus Operator - PyCon 2019](https://www.youtube.com/watch?v=6uAvHOKofws)
