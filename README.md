@@ -63,7 +63,14 @@ if y:= re.match("str1", x):
     print(f"Match the 1st string: {y.match(0)}")
 elif y:= re.match("str2", x):
     print(f"Match the 2nd string: {y.match(0)}")
+    
+# OR USING SHORT CIRCUITING
+
+if y := (re.match('str1', x) or re.match('str2', x)):
+    print(f'match: {y.group(0)}')
 ```
+[More info about short-circuiting](https://stackoverflow.com/a/14892812/9515831)
+
 *Instead of*
 ```python
 y = re.match("str1", x)
