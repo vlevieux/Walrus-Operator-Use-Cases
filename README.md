@@ -113,7 +113,7 @@ while not fail_condition():
 ```python
 values = 1, 2, 3, 4
 total = 0
-[total := total + value for v in values]
+[total := total + value for value in values]
 # [1, 3, 6, 10]
 ```
 
