@@ -132,7 +132,7 @@ filtered_data = [y for x in data if (y := f(x)) is not None]
 ```
 *Instead of*
 ```python
-filtered_data = list(filter(lambda y: f(y), data))
+filtered_data = list(filter(lambda y: y is not None, map(f, data)))
 ```
 
 # Warning
