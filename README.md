@@ -162,6 +162,13 @@ with open('file.txt') as f:
 
 Please read the [PEP 572](https://www.python.org/dev/peps/pep-0572/) for more information about what is valid/invalid.
 
+# Limiting Walrus Operator Usage
+
+In case you are not a big fan of this feature - you can always discourage its usage with linters:
+
+- [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - the strictest Python linter out there.
+- [flake8-walrus](https://github.com/asottile/flake8-walrus) - flake8 plugin to do just that.
+
 # How to contribute
 
 To add a use case, please create an issue with the *Propose a Use Case* template. It would be discussed and added.
