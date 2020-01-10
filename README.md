@@ -49,7 +49,7 @@ foo = [f(x), f(x)**2, f(x)**3]
 *Instead of*
 
 ```python
-result = []
+results = []
 for x in data:
     result = f(x)
     if result:
