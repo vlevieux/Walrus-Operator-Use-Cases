@@ -44,7 +44,7 @@ foo = [f(x), f(x)**2, f(x)**3]
 ### Reuse a value from a condition in a list comprehension
 
 ```python
-[ y for x in data if (y:=f(x))]
+results = [ y for x in data if (y:=f(x))]
 ```
 *Instead of*
 
